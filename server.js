@@ -18,7 +18,8 @@ app.use(bodyParser.json({ type: "application/vnd.api+json"}));
 app.use(express.static("./public"));
 
 //Mongoose config (Change URL to DB)
-mongoose.connect("mongodb://localhost/nyt-react");
+mongoose.connect("mongodb://heroku_hb366sn8:u6cmv2srsiim8h59ckancvvkhp@ds129422.mlab.com:29422/heroku_hb366sn8");
+// mongodb://heroku_hb366sn8:u6cmv2srsiim8h59ckancvvkhp@ds129422.mlab.com:29422/heroku_hb366sn8
 var db = mongoose.connection;
 
 db.on("error", function(err){
