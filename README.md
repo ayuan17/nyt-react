@@ -1,3 +1,2 @@
-# nyt-react
-https://nyt-scraper-react.herokuapp.com/ < /br>
-New York Times web scraper with React components
+# New York Times scraper with React components
+https://nyt-scraper-react.herokuapp.com/
